@@ -1,0 +1,418 @@
+h1{ position: absolute;
+    margin-top:20px;
+    color: rgb(255, 215, 0);
+    font-size:32px;
+    font-family:Indie Flower;
+  font-weight: 600;}
+
+
+body { background:#38644b ; }
+
+
+header {
+background-color: #38644b ;}
+
+.navbar-brand {color:gold;
+    font-size:44px;
+    font-family:Indie Flower;
+    font-weight: 600;
+margin-top: 0px;}
+
+.navbar-nav > li > a
+{font-size:28px;
+    font-family:Indie Flower;
+    font-weight: 600;
+    color: whitesmoke;}
+
+    .navbar-toggler{color: aliceblue;}
+    .navbar-toggler-icon{color:gold;}
+
+/*--------------------------------------slider----------------------------------------*/
+.slider
+{width: 100%;
+    height:480px;
+    margin-top: 10px;
+    position: absolute;
+    overflow: hidden;
+background-image:url(Singe.jpg);
+
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    clip-path: polygon(0% 0%, 1% 22%, 0 46%, 1% 79%, 1% 100%, 23% 95%, 46% 100%, 76% 96%, 100% 100%, 98% 75%, 100% 49%, 99% 20%, 100% 0, 75% 5%, 47% 0, 20% 4%);
+    transition: 4s;
+
+animation-name: animate;
+animation-direction:alternate;
+animation-play-state:running;
+animation-timing-function:ease-in-out;
+animation-duration:50s;
+animation-fill-mode:forwards;
+animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+ 0%  { background-image: url(image/pingouin.jpeg); }
+ 20% { background-image:url(image/girate\ et\ zebre.jpg); }
+ 40% { background-image:url(image/lion.jpeg);}  
+ 60% {background-image: url(image/lionne-sauvage-mignonne-arbre-dans-foret_181624-39489.jpg) ;}  
+ 80%{background-image:url(image/deu\ éléphant\ eau.jpeg);}  
+100%{background-image:url(image/un\ tigre\ .jpg);} 
+}
+
+.slides{width: 100%;
+    height:440px;
+    margin-top: 0px;
+background-color:darkkhakiZX;  }
+/*-------------------------------------fin slider----------------------------------------*/
+
+
+/*--------------------------------------photos zoo----------------------------------------*/
+.zoo{height: 350px;
+    width: 700px;
+    position: absolute;
+    border-radius: 40px;
+    border-style: hidden;
+   border: ;
+border-color:;
+    border-width: 18px;
+background-image:url(image/ZOO\ .jpg);
+background-position:50% ;
+background-size:130%;
+margin-left: 200px;
+margin-top: 170PX;
+clip-path: polygon(0% 0%, 1% 22%, 0 46%, 1% 79%, 1% 100%, 23% 95%, 46% 100%, 76% 96%, 100% 100%, 98% 75%, 100% 49%, 99% 20%, 100% 0, 75% 5%, 47% 0, 20% 4%);}
+                                       @media (max-width:800px) 
+                                       {.zoo {margin-left: 155px;
+                                        margin-top: 290PX;height:250px;width: 350px;;}}
+.presentation h1{margin-left:32%;
+    color:gold;
+    font-size: 48px;
+    margin-top:-90px;}
+    
+    .presentation
+    {height:300px;
+    width:80%;
+    text-align: center;
+    font-family:Indie Flower ;
+    font-weight: 600;
+    margin:auto;
+        margin-top: 140px;
+        padding-top:4px;
+border-radius: 60px;}
+
+P{font-size: 23px;
+color: whitesmoke;
+ margin-top:-20PX;}
+
+/*--------------------------------------DIV HABITAT---------------------------------------*/
+.divhabitat
+{padding-left: 40px;}
+
+.divhabitat h1
+{margin-left:38%;
+color:gold;
+font-size: 46px;
+    margin-top: 240px;
+font-weight: bold;}
+
+             @media (max-width:800px) 
+            {.divhabitat h1 {margin-left: 155px;
+               margin-left:30%;
+               margin-top:  270px;}
+                                   }
+
+
+
+
+
+/*--------------------------------------PHOTO div animaux----------------------------------------*/
+
+.otarie
+{width: 130px;
+height: 140px;
+position: absolute;
+margin-left: -360px;
+margin-top: 790px;
+clip-path: polygon(0% 0%, 1% 22%, 0 46%, 1% 79%, 1% 100%, 23% 95%, 46% 100%, 76% 96%, 100% 100%, 98% 75%, 100% 49%, 99% 20%, 100% 0, 75% 5%, 47% 0, 20% 4%);
+border: solid;
+border-width: 10px;
+border-color:  darkcyan;}
+
+.loutre{width: 130px;
+    height: 140px;
+    margin-left: -220px;
+margin-top: 770px;
+position: absolute;
+clip-path: polygon(0% 0%, 1% 22%, 0 46%, 1% 79%, 1% 100%, 23% 95%, 46% 100%, 76% 96%, 100% 100%, 98% 75%, 100% 49%, 99% 20%, 100% 0, 75% 5%, 47% 0, 20% 4%);
+border: solid;
+border-width: 10px;
+border-color:  darkcyan;}
+
+
+ .lynx 
+    {width: 130px;
+        height: 140px;
+        margin-left: -80px;
+        margin-top: 790px;
+    position: absolute;
+    clip-path: polygon(0% 0%, 1% 22%, 0 46%, 1% 79%, 1% 100%, 23% 95%, 46% 100%, 76% 96%, 100% 100%, 98% 75%, 100% 49%, 99% 20%, 100% 0, 75% 5%, 47% 0, 20% 4%);
+    border: solid;
+    border-width: 10px;
+    border-color: darkcyan;}
+                                @media (max-width:800px) 
+                       {.otarie {margin-top:565px ;}}
+                       @media (max-width:800px) 
+                       {.loutre {margin-top:550px ;}}
+                       @media (max-width:800px) 
+                       {.lynx {margin-top:565px ;}}
+                  
+
+.zebre 
+{width: 130px;
+height: 140px;
+position: absolute;
+margin-left: -380px;
+margin-top: 750px;
+clip-path: polygon(0% 0%, 1% 22%, 0 46%, 1% 79%, 1% 100%, 23% 95%, 46% 100%, 76% 96%, 100% 100%, 98% 75%, 100% 49%, 99% 20%, 100% 0, 75% 5%, 47% 0, 20% 4%);
+border: solid;
+border-width: 10px;
+border-color:  darkkhaki;}
+
+
+
+.girafe{width: 130px;
+    height: 140px;
+    margin-left: -260px;
+margin-top: 720px;
+position: absolute;
+clip-path: polygon(0% 0%, 1% 22%, 0 46%, 1% 79%, 1% 100%, 23% 95%, 46% 100%, 76% 96%, 100% 100%, 98% 75%, 100% 49%, 99% 20%, 100% 0, 75% 5%, 47% 0, 20% 4%);
+border: solid;
+border-width: 10px;
+border-color:  darkkhaki;}
+   
+
+.lion 
+    {width: 130px;
+        height: 140px;
+        margin-left: -125px;
+        margin-top: 750px;
+    position: absolute;
+    clip-path: polygon(0% 0%, 1% 22%, 0 46%, 1% 79%, 1% 100%, 23% 95%, 46% 100%, 76% 96%, 100% 100%, 98% 75%, 100% 49%, 99% 20%, 100% 0, 75% 5%, 47% 0, 20% 4%);
+    border: solid;
+    border-width: 10px;
+    border-color:  darkkhaki;}
+
+
+  @media (max-width:800px) 
+  {.zebre {margin-top:620px ;}}
+  @media (max-width:800px) 
+  {.girafe {margin-top:610px ;}}
+  @media (max-width:800px) 
+  {.lion {margin-top:620px ;}}
+
+  .singe 
+  {width: 130px;
+  height: 140px;
+  position: absolute;
+  margin-left: -150px;
+  margin-top: 790px;
+  clip-path: polygon(0% 0%, 1% 22%, 0 46%, 1% 79%, 1% 100%, 23% 95%, 46% 100%, 76% 96%, 100% 100%, 98% 75%, 100% 49%, 99% 20%, 100% 0, 75% 5%, 47% 0, 20% 4%);
+  border: solid;
+  border-width: 10px;
+  border-color:  whitesmoke;   }
+  
+  
+  .tigre{width: 130px;
+      height: 140px;
+      margin-left: -290px;
+  margin-top: 770px;
+  position: absolute;
+  clip-path: polygon(0% 0%, 1% 22%, 0 46%, 1% 79%, 1% 100%, 23% 95%, 46% 100%, 76% 96%, 100% 100%, 98% 75%, 100% 49%, 99% 20%, 100% 0, 75% 5%, 47% 0, 20% 4%);
+  border: solid;
+    border-width: 10px;
+    border-color:  whitesmoke;}
+     
+  
+  .elephant 
+      {width: 130px;
+          height: 140px;
+          margin-left: -430px;
+          margin-top: 790px;
+      position: absolute;
+      clip-path: polygon(0% 0%, 1% 22%, 0 46%, 1% 79%, 1% 100%, 23% 95%, 46% 100%, 76% 96%, 100% 100%, 98% 75%, 100% 49%, 99% 20%, 100% 0, 75% 5%, 47% 0, 20% 4%);
+      border: solid;
+      border-width: 10px;
+      border-color:  whitesmoke;}
+  
+/*--------------------------------------div habitat----------------------------------------*/
+
+.djungle{
+    width: 385px;
+    height: 380px;
+    background-image: url(image/Singe.jpg);
+    border: solid;
+    border-width: 16px;
+    border-color:  whitesmoke;
+    clip-path: polygon(0% 0%, 1% 22%, 0 46%, 1% 79%, 1% 100%, 23% 95%, 46% 100%, 76% 96%, 100% 100%, 98% 75%, 100% 49%, 99% 20%, 100% 0, 75% 5%, 47% 0, 20% 4%);
+    background-size:131%;
+    background-position: 50%;
+    margin-left:38px;
+    margin-top: 360px;
+    display:inline-block;}
+
+    djungle p{position: absolute;
+        color: yellow;
+        margin-top:170px;}
+
+   
+                                       @media (max-width:800px) 
+                                   {.djungle {margin-left: 160px;}}
+
+
+
+
+
+
+
+
+
+.dsavane{
+    width: 370px;
+    height: 380px;
+    background-image: url(image/girafe\ croisé.JPG);
+    border: solid;
+    border-width: 16px;
+    border-color:darkkhaki;
+    clip-path: polygon(0% 0%, 1% 22%, 0 46%, 1% 79%, 1% 100%, 23% 95%, 46% 100%, 76% 96%, 100% 100%, 98% 75%, 100% 49%, 99% 20%, 100% 0, 75% 5%, 47% 0, 20% 4%);
+   background-position: 56%;
+    background-size: 164%; 
+margin-top: 320px;
+padding: 40px;
+display:inline-block;}
+                                              @media (max-width:800px) 
+                                           {.dsavane {margin-left: 160px;
+                                                      margin-top: 230px;}
+                                                                         }
+
+
+.dmarais{
+    width: 370px;
+    height: 380px;
+    border-width: 5px;
+    background-image: url(image/pingouin.jpeg);
+    border: solid;
+    border-width: 16px;
+    border-color: darkcyan;
+    clip-path:polygon(0% 0%, 1% 22%, 0 46%, 1% 79%, 1% 100%, 23% 95%, 46% 100%, 76% 96%, 100% 100%, 98% 75%, 100% 49%, 99% 20%, 100% 0, 75% 5%, 47% 0, 20% 4%);
+   background-position: 50%;
+    background-size: 154%;
+     margin-top: 360PX;
+    display:inline-block;}
+                                              @media (max-width:800px) 
+                                             {.dmarais {margin-left: 160px;
+                                                         margin-top: 180px;}
+                                                                             }
+/*--------------------------------------DIV SERVICE----------------------------------------*/
+ h2 {color:white;
+text-align: center;
+    font-size:52px; 
+ font-family:Indie Flower ;
+  font-weight: 800;
+margin-top: 180px;}
+
+
+.divservice
+{margin-top: 220px;}
+
+.divservice h2
+{margin-left:0%;
+color: gold;
+font-size: 38px;
+    margin-top: 50px;
+
+}
+
+
+.TITRE
+{width: 300px;
+height: 50px;
+background-color: #542117;
+margin: auto;
+
+clip-path:polygon(0% 0%, 1% 22%, 0 46%, 1% 79%, 1% 100%, 23% 95%, 46% 100%, 76% 96%, 100% 100%, 98% 75%, 100% 49%, 99% 20%, 100% 0, 75% 5%, 47% 0, 20% 4%);}
+
+
+.resto{width:370px;
+height: 390px;
+border-width: 5px;
+border: solid;
+    border-width: 21px;
+    border-color:  whitesmoke;
+    clip-path: polygon(0% 0%, 1% 22%, 0 46%, 1% 79%, 1% 100%, 23% 95%, 46% 100%, 76% 96%, 100% 100%, 98% 75%, 100% 49%, 99% 20%, 100% 0, 75% 5%, 47% 0, 20% 4%);
+background-image: url(image/restaurant\ pho.jpg);
+    background-size:190%;
+    background-position: 40%;
+display: inline-block;
+    margin-left: 38px;
+margin-right: 10px;
+    margin-top:100px;}
+                                                @media (max-width:800px) 
+                                               {.resto {margin-left: 180px;}
+                                                                            }
+
+.visite{width:370px;
+height: 390px;
+border: solid;
+    border-width: 21px;
+    border-color:whitesmoke;
+    clip-path: polygon(0% 0%, 1% 22%, 0 46%, 1% 79%, 1% 100%, 23% 95%, 46% 100%, 76% 96%, 100% 100%, 98% 75%, 100% 49%, 99% 20%, 100% 0, 75% 5%, 47% 0, 20% 4%);
+background-image: url(image/visite-guidee.jpg);
+    background-size: 170%;
+    background-position: 50%;
+    display: inline-block;
+margin-right: 10px;
+margin-top:100px;}
+                                              @media (max-width:800px) 
+                                            {.visite{margin-left: 180px;}
+                                                                         }
+
+
+
+.train{width:370px;
+height: 390px;
+border: solid;
+    border-width: 21px;
+    border-color: whitesmoke;
+    clip-path: polygon(0% 0%, 1% 22%, 0 46%, 1% 79%, 1% 100%, 23% 95%, 46% 100%, 76% 96%, 100% 100%, 98% 75%, 100% 49%, 99% 20%, 100% 0, 75% 5%, 47% 0, 20% 4%);
+background-image: url(image/TRAIN.jpg);
+    background-size: 170%;
+    background-position: 40%;
+    display: inline-block;
+margin-right: 10px;
+margin-top:100px;}
+@media (max-width:800px) 
+{.train{margin-left: 180px;}
+}
+h3 {color: white;
+text-align: center;
+    font-size:32px; 
+ font-family:Indie Flower;
+  font-weight: 900;
+margin-top: -110px;}
+
+/*--------------------------------------FOOTER----------------------------------------*/
+
+.footer{width: auto;
+height:200px;
+background-image: url(image/beau-fond-tropical.jpg);
+margin-top: 100px;}
+
+
+h6{color: gold;
+     font-size:32px; 
+ font-family:Indie Flower;
+  font-weight: 900;
+    margin-left: 50%;
+  
+}

@@ -1,0 +1,22 @@
+body { background:#38644b ; }
+
+
+header {
+
+background:#38644b   ;}
+.navbar-brand {color:gold;
+    font-size:44px;
+    font-family:Indie Flower;
+    font-weight: 600;
+margin-top: 0px;}
+
+.navbar-nav > li > a
+{font-size:28px;
+    font-family:Indie Flower;
+    font-weight: 600;
+    color: whitesmoke;}
+
+    .navbar-toggler{color: aliceblue;}
+    .navbar-toggler-icon{color:gold;}
+h1{color: aliceblue;
+text-align: center;}

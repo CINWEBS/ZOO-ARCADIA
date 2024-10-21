@@ -1,0 +1,56 @@
+header {position: sticky;
+    height: 70px;
+    background-color: #38644b; }
+    
+    body{background-color:#38644b ;}
+
+
+.navbar-brand {color:gold;
+    font-size:44px;
+    font-family:Indie Flower;
+    font-weight: 600;
+margin-top: 0px;}
+
+.navbar-nav > li > a
+{font-size:28px;
+    font-family:Indie Flower;
+    font-weight: 600;
+    color:whitesmoke;}
+    .navbar-toggler{color: aliceblue;}
+    .navbar-toggler-icon{color:gold;}
+    h1{color: gold;
+
+        font-size:32px; 
+         font-family:Indie Flower;
+          font-weight: 900;
+        margin-left: 45%;}
+        
+        
+        input[type="email"] {color: #1b030a;
+        border-radius: 50PX;
+        border-color: red;
+        height:40px;
+        width: 320px;;
+        margin-top: 5%;
+        margin-left: 30%;}
+        
+        input[type="password"]{color: #23211f;
+        border-radius: 50PX;
+        border-color:red;
+        height:40px;
+        width: 320px;
+        margin-top: 0%;
+        margin-left: 30%}
+        
+        
+        input[type="submit"]
+
+        {background-color: gold;
+        color: #23211f;
+          border-radius: 50PX;
+          border-color:red;
+          height:40px;
+          width: 260px;
+        margin-left: 41%;
+        margin-top: 10px;}
+        
